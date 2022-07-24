@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script
+			src="https://kit.fontawesome.com/b3d1c5d881.js"
+			crossorigin="anonymous"
+		></script>
+
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+	</head>
+	<body>
+		<!-- Header section -->
+		<header>
+			<div class="container-fluid">
+				<div class="row">
+					<nav class="navbar navbar-expand-lg bg-light py-4 container-fluid">
+						<div class="container">
+							<a class="navbar-brand logo-text" href="#"
+								>Abacus Convention Center</a
+							>
+
+							<button
+								class="navbar-toggler"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#navbarScroll"
+								aria-controls="navbarScroll"
+								aria-expanded="false"
+								aria-label="Toggle navigation"
+							>
+								<span class="navbar-toggler-icon"></span>
+							</button>
+
+							<div class="collapse navbar-collapse menu-sec" id="navbarScroll">
+								<ul
+									class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll"
+									style="--bs-scroll-height: 100px"
+								>
+									<li class="nav-item">
+										<a class="nav-link active" aria-current="page" href="#"
+											>Home</a
+										>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">About us</a>
+									</li>
+									<li class="nav-item dropdown">
+										<a
+											class="nav-link dropdown-toggle"
+											href="#"
+											role="button"
+											data-bs-toggle="dropdown"
+											aria-expanded="false"
+										>
+											Our Service
+										</a>
+										<ul class="dropdown-menu">
+											<li>
+												<a class="dropdown-item" href="#">Ecommerce Website</a>
+											</li>
+											<li>
+												<a class="dropdown-item" href="#">Landing Page</a>
+											</li>
+											<li><hr class="dropdown-divider" /></li>
+											<li>
+												<a class="dropdown-item" href="#">Real State Website</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Contact Us</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<!-- Banner section Start -->
+		<section class="slider">
+			<div
+				id="carouselExampleDark"
+				class="carousel carousel-dark slide"
+				data-bs-ride="carousel"
+			>
+				<div class="carousel-indicators">
+					<button
+						type="button"
+						data-bs-target="#carouselExampleDark"
+						data-bs-slide-to="0"
+						class="active"
+						aria-current="true"
+						aria-label="Slide 1"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carouselExampleDark"
+						data-bs-slide-to="1"
+						aria-label="Slide 2"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carouselExampleDark"
+						data-bs-slide-to="2"
+						aria-label="Slide 3"
+					></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active" data-bs-interval="10000">
+						<img
+							src="assets/img/images/banner.png"
+							class="d-block w-100 img-fluid"
+							alt="..."
+						/>
+						<div class="carousel-caption d-none d-md-block slider-text">
+							<h1 class="text-light slider-title">
+								The perfect venue for your <br />
+								next event
+							</h1>
+							<p class="text-light slider-para">
+								Amet minim mollit non deserunt ullamco est sit aliqua <br />
+								dolor do amet sint. Velit officia consequat duis enim velit
+							</p>
+							<button class="btn btn-light text-primary px-4 mb-5">
+								Book Now
+							</button>
+						</div>
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img
+							src="assets/img/images/banner-2.jpg"
+							class="d-block w-100 img-fluid"
+							alt="..."
+						/>
+						<div class="carousel-caption d-none d-md-block">
+							<h1 class="text-light slider-title">
+								The perfect venue for your <br />
+								next event
+							</h1>
+							<p class="text-light slider-para">
+								Amet minim mollit non deserunt ullamco est sit aliqua <br />
+								dolor do amet sint. Velit officia consequat duis enim velit
+							</p>
+							<button class="btn btn-light text-primary px-4 mb-5">
+								Book Now
+							</button>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img
+							src="assets/img/images/banner-3.jpg"
+							class="d-block w-100 img-fluid"
+							alt="..."
+						/>
+						<div class="carousel-caption d-none d-md-block">
+							<h1 class="text-light slider-title">
+								The perfect venue for your <br />
+								next event
+							</h1>
+							<p class="text-light slider-para">
+								Amet minim mollit non deserunt ullamco est sit aliqua <br />
+								dolor do amet sint. Velit officia consequat duis enim velit
+							</p>
+							<button class="btn btn-light text-primary px-4 mb-5">
+								Book Now
+							</button>
+						</div>
+					</div>
+				</div>
+				<button
+					class="carousel-control-prev"
+					type="button"
+					data-bs-target="#carouselExampleDark"
+					data-bs-slide="prev"
+				>
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button
+					class="carousel-control-next"
+					type="button"
+					data-bs-target="#carouselExampleDark"
+					data-bs-slide="next"
+				>
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</section>
+		<!-- Body section  -->
+		<main>
+			<section class="moment-sec">
+				<div class="container">
+					<div class="row d-flex align-items-center">
+						<div class="col-lg-6 col-md-6">
+							<img
+								class="img-fluid"
+								src="assets/img/images/wedding.png"
+								alt=""
+							/>
+						</div>
+						<div class="col-lg-6 col-md-6 ps-4 moment-info">
+							<h2>Every moment is Precious</h2>
+							<p>
+								Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+								amet sint. Velit officia consequat duis enim velit mollit.
+								Exercitation veniam consequat sunt nostrud amet.
+							</p>
+							<button class="btn btn-primary">
+								Explore our album
+								<span><i class="fa-regular fa-arrow-right-long"></i></span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Our Package section  -->
+			<section>
+				<div class="container">
+					<h2 class="text-center pb-5 package-headline">Our Package</h2>
+
+					<div class="row priceTable d-flex">
+						<div class="Ptable-1 col-lg-3 col-md-6 my-2">
+							<div class="card py-3">
+								<div class="card-body">
+									<h2 class="card-title price">$300</h2>
+									<h4 class="card-title package-name">Business fair</h4>
+									<p class="card-text price-para mb-1">
+										For most businesses event like book fair, craft fair.
+									</p>
+									<ul class="ps-0 package-details">
+										<li>
+											<i class="fa-regular fa-circle-check"></i
+											><span> limited space access</span>
+										</li>
+										<li>
+											<i class="fa-regular fa-circle-check"></i
+											><span> Secuirty facility</span>
+										</li>
+										<li>
+											<i class="fa-regular fa-circle-check"></i
+											><span> Event support</span>
+										</li>
+										<li>
+											<i class="fa-regular fa-circle-check"></i
+											><span> Decoration design</span>
+										</li>
+										<li>
+											<i class="fa-regular fa-circle-check"></i
+											><span> Per day bill</span>
+										</li>
+									</ul>
+									<a
+										href="#"
+										class="btn btn-outline-primary px-5 py-2 text-center"
+										>Choose plan</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="Ptable-2 col-lg-3 col-md-6 my-2">
+							<div class="card py-3">
+								<div class="card-body">
+									<h2 class="card-title price">$500</h2>
+									<h4 class="card-title package-name">wedding basic</h4>
+									<p class="card-text price-para mb-1">
+										For weddings with basic plan and limited item
+									</p>
+									<ul class="ps-0 package-details">
+										<li>
+											<i class="fa-regular fa-circle-check"></i
+											><span> limited space access</span>
+										</li>
+										<li>
+											<i class="fa-regular fa-circle-check"></i
+											><span> Secuirty facility</span>
+										</li>
+										<li>
+											<i class="fa-regular fa-circle-check"></i
+											><span> Event support</span>
+										</li>
+										<li>
+											<i class="fa-regular fa-circle-check"></i
+											><span> Decoration design</span>
+										</li>
+										<li>
+											<i class="fa-regular fa-circle-check"></i
+											><span> Per day bill</span>
+										</li>
+									</ul>
+									<a
+										href="#"
+										class="btn btn-outline-primary px-5 py-2 text-center"
+										>Choose plan</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="Ptable-3 col-lg-3 col-md-6 my-2">
+							<div class="card bg-primary shadow-lg py-3">
+								<div class="card-body">
+									<h2 class="card-title price text-light">$800</h2>
+									<h4 class="card-title package-name text-light">
+										Wedding plus
+									</h4>
+									<p class="card-text price-para text-light mb-1">
+										For most businesses event like book fair, craft fair.
+									</p>
+									<ul class="ps-0 package-details text-light">
+										<li>
+											<i class="fa-regular fa-circle-check"></i
+											><span class="text-light"> limited space access</span>
+										</li>
+										<li>
+											<i class="fa-regular fa-circle-check"></i
+											><span class="text-light"> Secuirty facility</span>
+										</li>
+										<li>
+											<i class="fa-regular fa-circle-check"></i
+											><span class="text-light"> Event support</span>
+										</li>
+										<li>
+											<i class="fa-regular fa-circle-check"></i
+											><span class="text-light"> Decoration design</span>
+										</li>
+										<li>
+											<i class="fa-regular fa-circle-check"></i
+											><span class="text-light"> Per day bill</span>
+										</li>
+									</ul>
+									<a href="#" class="btn btn-light px-5 py-2 text-center"
+										>Choose plan</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="Ptable-4 col-lg-3 col-md-6 my-2">
+							<div class="card py-3">
+								<div class="card-body">
+									<h2 class="card-title price">$1200</h2>
+									<h4 class="card-title package-name">Corporate event</h4>
+									<p class="card-text price-para mb-1">
+										For most businesses event like book fair, craft fair.
+									</p>
+									<ul class="ps-0 package-details">
+										<li>
+											<i class="fa-regular fa-circle-check"></i
+											><span> limited space access</span>
+										</li>
+										<li>
+											<i class="fa-regular fa-circle-check"></i
+											><span> Secuirty facility</span>
+										</li>
+										<li>
+											<i class="fa-regular fa-circle-check"></i
+											><span> Event support</span>
+										</li>
+										<li>
+											<i class="fa-regular fa-circle-check"></i
+											><span> Decoration design</span>
+										</li>
+										<li>
+											<i class="fa-regular fa-circle-check"></i
+											><span> Per day bill</span>
+										</li>
+									</ul>
+									<a
+										href="#"
+										class="btn btn-outline-primary px-5 py-2 text-center"
+										>Choose plan</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Team-member-section -->
+			<section class="container">
+				<h2 class="text-center pt-5 mt-5 pb-2 package-headline">
+					Happy Clients says
+				</h2>
+				<div class="row my-2">
+					<div class="col-lg-4 col-md-6 my-4">
+						<div class="card">
+							<div class="card-body text-center">
+								<p>
+									Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+									Molestiae fugit, earum excepturi magni quibusdam voluptas.
+								</p>
+								<img src="assets/img/images/person 1.png" alt="" />
+								<h4>Saurav Mondal</h4>
+								<h5>Banker</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 my-4">
+						<div class="card">
+							<div class="card-body text-center">
+								<p>
+									Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+									Molestiae fugit, earum excepturi magni quibusdam voluptas.
+								</p>
+								<img src="assets/img/images/person 2.png" alt="" />
+								<h4>Saurav Mondal</h4>
+								<h5>Banker</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 my-4">
+						<div class="card">
+							<div class="card-body text-center">
+								<p>
+									Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+									Molestiae fugit, earum excepturi magni quibusdam voluptas.
+								</p>
+								<img src="assets/img/images/person 3.png" alt="" />
+								<h4>Saurav Mondal</h4>
+								<h5>Banker</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<script src="assets/css/bootstrap.min.js"></script>
+	</body>
+</html>
